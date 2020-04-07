@@ -24,6 +24,8 @@
   "dependencies": {
     "mocha": "*",
     "chai": "*",
-    "jshint": "*"
+    "jshint": "*",
+    "istanbul": "*",
+    "coverage": "*"
   }
 }

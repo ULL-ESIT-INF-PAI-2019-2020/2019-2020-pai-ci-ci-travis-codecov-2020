@@ -1,5 +1,8 @@
 languaje: node_js
 node_js:
   - "node" 
+script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov
+  - codecov
 env:
   - CODECOV_TOKEN="08f1a0cd-798f-439b-9a64-5eaa34759419"
