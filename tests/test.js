@@ -26,10 +26,10 @@
  *            26/03/2020 - Inicio de la práctica
 */
 "use strict";
-
+const Complex = require("../src/complex.js");
 const randomComplexArray = generateRandomComplexNumbers(50);
 describe('Random Complex Generation', () => {
-  context('generateRandomComplexNumbers', () => {
+  context('generate RandomComplexNumbers', () => {
     it('should be a function', () => {
       chai.expect(generateRandomComplexNumbers).to.be.a('function');
     });

@@ -15,7 +15,7 @@
  *              
 */
 
-class Complex {
+module.exports = class Complex {
   constructor(realComponent, imaginaryComponent) {
     this.realComponent = realComponent;
     this.imaginaryComponent = imaginaryComponent;
@@ -93,3 +93,4 @@ class Complex {
   }
 
 }
+
