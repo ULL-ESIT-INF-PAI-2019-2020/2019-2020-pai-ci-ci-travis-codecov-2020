@@ -123,8 +123,8 @@ function() {
     * @param {}
     * @returns Mostramos en caso de funcionar, la funcion, que la funcion es correcta
     */
-    it ("Comprobando valor calculado de parteReal de Mandelbrot", function() {
-      expect(numeroComplejo.mayorQueDos()).to.equal(false);
-    });
+    // it ("Comprobando valor calculado de parteReal de Mandelbrot", function() {
+    //   expect(numeroComplejo.mayorQueDos()).to.equal(false);
+    // });
   });
 });
