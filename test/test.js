@@ -18,7 +18,8 @@
 */
 
 const expect = require("chai").expect;
-let complejo = require("../src/complejo");
+const mocha =  require("mocha");
+let complejo = require("../src/complejo.js");
 
 let numeroComplejo = new complejo.numeroComplejo(5, 10);
 describe("Test unitarios para clase numero complejo:",
