@@ -16,8 +16,10 @@
   * @file Fichero de implementacion de ejercicios
   * @version 1.0.0
 */
-
-'use strict'
+/*jshint esversion: 6 */
+() => {
+    'use strict';
+};
 
 class numeroComplejo {
   /**
