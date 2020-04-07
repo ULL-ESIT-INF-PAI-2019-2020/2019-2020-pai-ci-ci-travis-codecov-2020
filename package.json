@@ -26,6 +26,6 @@
     "chai": "*",
     "jshint": "*",
     "istanbul": "*",
-    "coverage": "*"
+    "codecov": "*"
   }
 }
