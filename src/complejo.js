@@ -17,9 +17,7 @@
   * @version 1.0.0
 */
 /*jshint esversion: 6 */
-() => {
-    'use strict';
-};
+
 
 class numeroComplejo {
   /**
