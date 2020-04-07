@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha && jshint src/complejo.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
