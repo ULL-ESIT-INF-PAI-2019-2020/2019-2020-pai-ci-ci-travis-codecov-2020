@@ -1,25 +1,23 @@
-/**
-  * @copyright Universidad de La Laguna
-  * Escuela Superior de Ingeniería y Tecnología
-  * Grado en Ingeniería Informática
-  * Asignatura: Programación de Aplicaciones Interactivas (PAI)
-  * Curso: 3º Itinerario 1
-  * Práctica 7 PAI - Mandelbrot. Numero complejos
-  * @author: Christian Torres Gonzalez alu0101137902@ull.edu.es
-  * @description: Programa que dado un lienzo de canvas, va a calcular, dada
-  * una coordenada X e Y, que dada un numro de iteraciones, para cada coordenada,
-  * y utilizando la función f(Zn) = Z(n-1)^2 + c, donde c es un numero complejo dado,
-  * y zn-1 es el resultado de elevar al cuadrado la funcion para valor Zn-1. Para poder
-  * llegar a un resultado deseado, debemos partir de la copndicion de que x e y, que son
-  * las coordenadas del punto del lienzo de canvas que estamos tratando.
-  * @since 28/03/2020
-  * @file Fichero de implementacion de ejercicios
-  * @version 1.0.0
+/** Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Asignatura: Programación de Aplicaciones Interactivas
+ * Curso: 3º
+ * @file 
+ * @class
+ * @subject Trabajo PAI - CI | CODECOV | TRAVIS
+ * @author Jorge Acevedo de León, Christian Torres González
+ * Correo: alu0101123622@ull.es
+ * @since 26/03/2020
+ * @version 1.0.0
+ * 
+ * Contenido: Implementación de la clase número complejo
+ *
+ * Historial de revisiones
+ *            01/04/2020 - Inicio del trabajo
 */
-/*jshint esversion: 6 */
 
-
-class numeroComplejo {
+class Complex {
   /**
   * @description Constructor de la clase numero complejo
   * @param {Number} x Parte real del complejo
@@ -127,4 +125,4 @@ class numeroComplejo {
   }
 }
 
-module.exports = {numeroComplejo: numeroComplejo};
+module.exports = {Complex: Complex};
