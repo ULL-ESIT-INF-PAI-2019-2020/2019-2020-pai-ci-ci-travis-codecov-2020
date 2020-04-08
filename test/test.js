@@ -96,21 +96,21 @@ function() {
   describe("\n    Probando calculos de parteReal para Mandelbrot", function(){
     
     /**
-    * @description Expect para comprobar el correcto funcionamiento de calculos de Mandelbrot
+    * @description Expect para comprobar el correcto funcionamiento 
     * @param {}
     * @returns Mostramos en caso de funcionar, la funcion, que la funcion es correcta
     */
-    it ("Comprobando valor calculado de parteReal de Mandelbrot", function() {
+    it ("Comprobando valor calculado de parteReal", function() {
       let resultado = numeroComplejo.calcularParteReal();
       expect(resultado).to.equal(-500);
     });
 
     /**
-    * @description Expect para comprobar el correcto funcionamiento de calculos de Mandelbrot
+    * @description Expect para comprobar el correcto funcionamiento de calculos
     * @param {}
     * @returns Mostramos en caso de funcionar, la funcion, que la funcion es correcta
     */
-    it ("Comprobando valor calculado de parteImaginaria de Mandelbrot", function() {
+    it ("Comprobando valor calculado de parteImaginaria", function() {
       let resultado = numeroComplejo.calcularParteImaginaria();
       expect(resultado).to.equal(1200);
     });
@@ -119,11 +119,11 @@ function() {
   describe("\n    Probando comprobacion de numero complejo mayor que 2", function(){
 
     /**
-    * @description Expect para demostrar la comprobacion de calculos de Mandelbrot
+    * @description Expect para demostrar la comprobacion de calculos
     * @param {}
     * @returns Mostramos en caso de funcionar, la funcion, que la funcion es correcta
     */
-    it ("Comprobando valor calculado de parteReal de Mandelbrot", function() {
+    it ("Comprobando valor calculado", function() {
       expect(numeroComplejo.mayorQueDos()).to.equal(false);
     });
   });
