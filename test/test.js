@@ -11,7 +11,7 @@
  * @since 26/03/2020
  * @version 1.0.0
  * 
- * Contenido: Implementación de la clase número complejo
+ * Contenido: Implementación de tests la clase número complejo
  *
  * Historial de revisiones
  *            01/04/2020 - Inicio del trabajo
