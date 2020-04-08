@@ -124,7 +124,7 @@ function() {
     * @returns Mostramos en caso de funcionar, la funcion, que la funcion es correcta
     */
     it ("Comprobando valor calculado", function() {
-      expect(numeroComplejo.mayorQueDos()).to.equal(false);
+      expect(numeroComplejo.mayorQueDos()).to.equal(true);
     });
   });
 });
