@@ -19,7 +19,7 @@
 
 const expect = require("chai").expect;
 const mocha =  require("mocha");
-let complejo = require("../src/Complex.js");
+const complejo = require("../src/Complex.js");
 
 let numeroComplejo = new complejo.Complex(5, 10);
 describe("Test unitarios para clase numero complejo:",
@@ -128,3 +128,5 @@ function() {
     });
   });
 });
+
+
