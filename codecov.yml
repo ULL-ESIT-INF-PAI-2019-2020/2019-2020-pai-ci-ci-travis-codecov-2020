@@ -36,4 +36,4 @@ coverage:
         flags: 
           - frontend
         paths: 
-          - src/frontend
+          - src/
