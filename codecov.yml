@@ -1,5 +1,5 @@
 istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha
-codecov:
+codecov: 
   token: "08f1a0cd-798f-439b-9a64-5eaa34759419"
   bot: "codecov-io"
   ci:
