@@ -12,3 +12,6 @@ script:
   - ./travisScript.sh
   - echo "Ejecucion de script .sh!"
 
+branches:
+  except:
+    - testing
