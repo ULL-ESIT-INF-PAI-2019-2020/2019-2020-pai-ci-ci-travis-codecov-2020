@@ -7,7 +7,7 @@ git:
   depth: false
 install:
   - npm ci
-
+ 
 script: 
   - ./travisScript.sh
   - echo "Ejecucion de script .sh!"
