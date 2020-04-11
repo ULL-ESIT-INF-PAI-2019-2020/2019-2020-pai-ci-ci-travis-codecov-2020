@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "12"
-  
+
 branches:
   except:
     - testing
@@ -9,6 +9,7 @@ branches:
 git:
   submodules: false
   depth: false
+  
 install:
   - npm ci
 
