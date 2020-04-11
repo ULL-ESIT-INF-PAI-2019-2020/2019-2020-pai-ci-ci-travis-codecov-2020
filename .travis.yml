@@ -2,9 +2,14 @@ language: node_js
 node_js:
   - "12"
 
+branches:
+  except:
+    - testing
+ 
 git:
   submodules: false
   depth: false
+  
 install:
   - npm ci
  
@@ -12,6 +17,3 @@ script:
   - ./travisScript.sh
   - echo "Ejecucion de script .sh!"
 
-branches:
-  except:
-    - testing
