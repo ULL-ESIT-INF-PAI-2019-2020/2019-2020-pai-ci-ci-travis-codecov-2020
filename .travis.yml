@@ -3,5 +3,6 @@ node_js:
   - "12"
 install:
   - npm ci
-script: ./travisScript.sh
-
+script: 
+  - ./travisScript.sh
+  - echo "Ejecución de script .sh!"
