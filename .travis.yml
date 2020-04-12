@@ -17,3 +17,5 @@ script:
   - ./travisScript.sh
   - echo "Ejecucion de script .sh!"
 
+after_success:
+  - git push origin master
