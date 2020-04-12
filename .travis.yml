@@ -18,4 +18,6 @@ script:
   - echo "Ejecucion de script .sh!"
 
 after_success:
+  - git checkout master
+  - git merge pruebas --no-ff -m "Merge desde travis a MASTER :)"
   - git push origin master
