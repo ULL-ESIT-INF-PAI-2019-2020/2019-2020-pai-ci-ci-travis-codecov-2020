@@ -1,6 +1,25 @@
 language: node_js
 node_js:
   - "12"
+
+branches:
+  except:
+    - testing
+ 
+git:
+  submodules: false
+  depth: false
+  
 script: 
   - ./travisScript.sh
   - echo "Ejecucion de script .sh!"
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  target-branch: master # Commit to master instead of gh-pages
+  github-token: $GH_TOKEN
+  keep-history: true # By default, Travis uses push --force and wipes out commit history
+  verbose: true
+  on:
+    branch: ejemplo 
