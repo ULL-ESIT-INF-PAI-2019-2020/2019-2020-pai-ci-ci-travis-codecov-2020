@@ -17,7 +17,12 @@ script:
   - ./travisScript.sh
   - echo "Ejecucion de script .sh!"
 
-after_success:
-  - git checkout master
-  - git merge pruebas --no-ff -m "Merge desde travis a MASTER :)"
-  - git push origin master
+deploy:
+  provider: pages
+  skip-cleanup: true
+  target-branch: master # Commit to master instead of gh-pages
+  github-token: 5d6dd70e2177d99bc4317e820f89148105e5e065
+  keep-history: true # By default, Travis uses push --force and wipes out commit history
+  verbose: true
+  on:
+    branch: master
