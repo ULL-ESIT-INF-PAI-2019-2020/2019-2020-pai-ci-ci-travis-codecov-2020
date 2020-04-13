@@ -5,11 +5,15 @@ node_js:
 branches:
   except:
     - testing
+
  
 git:
   submodules: false
   depth: false
   
+install:
+  - npm ci
+
 script: 
   - ./travisScript.sh
   - echo "Ejecucion de script .sh!"
@@ -22,4 +26,4 @@ deploy:
   keep-history: true # By default, Travis uses push --force and wipes out commit history
   verbose: true
   on:
-    branch: ejemplo 
+    branch: ejemploenvivo
