@@ -12,20 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jorge-Acevedo/travis-testing.git"
+    "url": "git+https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-ci-jorge-acevedo-christian-torres.git"
   },
   "keywords": [],
   "author": "Jorge Acevedo de León <alu0101123622@ull.edu.es> (https://github.com/Jorge-Acevedo)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jorge-Acevedo/travis-testing/issues"
+    "url": "https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-ci-jorge-acevedo-christian-torres/issues"
   },
-  "homepage": "https://github.com/Jorge-Acevedo/travis-testing#readme",
+  "homepage": "https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-ci-jorge-acevedo-christian-torres#readme",
   "dependencies": {
     "mocha": "*",
     "chai": "*",
     "jshint": "*",
-    "istanbul": "0.4.5",
-    "codecov": "*"
+    "istanbul": "0.4.5"
   }
 }

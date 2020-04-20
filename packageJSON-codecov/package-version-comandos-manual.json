@@ -25,7 +25,6 @@
     "mocha": "*",
     "chai": "*",
     "jshint": "*",
-    "istanbul": "0.4.5",
-    "codecov": "*"
+    "istanbul": "0.4.5"
   }
 }
