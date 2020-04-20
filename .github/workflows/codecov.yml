@@ -1,0 +1,35 @@
+name: Codecov
+
+# Indicamos cuando queremos que se actualize al codecov
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+    # Comprobacion del repositorio con el $GITHUB_WORKSPACE
+    - uses: actions/checkout@v2
+
+    # Dado que estamos creando una maquina virtual, queremos que instale los paquetes
+    # necesarios, por ello utilizamos npm i
+    - name: Instalando modulos
+      run: npm ci
+
+    # Como estamos en una maquina virtual, le indicamos que queremos ejecutar los test,
+    # para poder generar el reporte necesario
+    - name: Reporte CodeCov
+      run: npm test
+
+    # Se encarga de enlazar el github con el repo de CodeCov, a falta del comando encargado
+    # de subir el reporte al repo en la web
+    - uses: codecov/codecov-action@v1.0.6
+      with:
+        token: "08f1a0cd-798f-439b-9a64-5eaa34759419"
