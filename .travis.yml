@@ -5,5 +5,8 @@ install:
   - npm ci
 script:
   - npm test
+branches:
+  only:
+    - testing
 after_success:
   - ./bash-deploy.sh
