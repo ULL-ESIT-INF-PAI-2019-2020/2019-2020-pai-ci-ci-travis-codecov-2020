@@ -1,0 +1,31 @@
+{
+  "name": "travis-testing",
+  "version": "1.0.0",
+  "description": "This directory is organised as follows:",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha -t <<token del repo>>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-ci-jorge-acevedo-christian-torres.git"
+  },
+  "keywords": [],
+  "author": "Jorge Acevedo de León <alu0101123622@ull.edu.es> (https://github.com/Jorge-Acevedo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-ci-jorge-acevedo-christian-torres/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-ci-jorge-acevedo-christian-torres#readme",
+  "dependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "jshint": "*",
+    "istanbul": "0.4.5",
+    "codecov": "*"
+  }
+}
